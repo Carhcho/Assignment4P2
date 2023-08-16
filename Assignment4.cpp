@@ -1,37 +1,3 @@
-/******************************************
-
-Assignment 4
-
-This program will create a program to keep track of the statistics for a kid’s soccer team.  The program will have a structure that defines what data the program will collect for each of the players.
-
-The structure will keep the following data:
-
-Players Name (string)
-Players Jersey Number (integer)
-Points scored by Player (integer)
-The program will have an array of 12 players (use less for testing and development, use a constant for the size).  Each element in the array is a different player on the team.
-
-The program will ask the user to enter information for each player.  The program will also display the team information in a table format. After the table, the total points scored by a team will be displayed.
-
-The program will also determine which player scored the most points on the team.
-
-Validation:
-
-Do not accept negative value for player’s number
-Do not accept negative value for player’s score
-Required Methods:
-
-void GetPlayerInfo(Player &);
-void ShowPlayerInfo(const Player);
-int GetTotalPoints(const Player[ ], int);
-void ShowHighest(Player [ ], int);
-
-Author: Cesar Roncancio
-
-Created : 9/26/2021
-
-Revisions : 9/26/2021 I declared the structures, functions and constants. used fors to visit the player array and show the info entered by the user.
-******************************************/
 #include <iostream>
 #include <iomanip>
 #include <string>
